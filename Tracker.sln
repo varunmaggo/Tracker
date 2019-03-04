@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker", "Tracker\Tracker.csproj", "{540C9F38-2134-4EDC-BF1D-C03C41E53995}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerFrontEnd", "Tracker\TrackerFrontEnd.csproj", "{540C9F38-2134-4EDC-BF1D-C03C41E53995}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.Services", "Tracker.Services\Tracker.Services.csproj", "{1D0E03C7-A87B-4B64-93E7-E62E6B18FE23}"
 EndProject
@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.Repository", "Track
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.Data", "Tracker.Data\Tracker.Data.csproj", "{BBAD03F1-F7A8-4E1E-98F5-10A8B96489DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.UnitTests", "Tracker.UnitTests\Tracker.UnitTests.csproj", "{D3939708-B1FB-42B1-B87E-4A4F7DC944F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracker.UnitTests", "Tracker.UnitTests\Tracker.UnitTests.csproj", "{D3939708-B1FB-42B1-B87E-4A4F7DC944F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
