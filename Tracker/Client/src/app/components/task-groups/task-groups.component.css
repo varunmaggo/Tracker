@@ -1,0 +1,7 @@
+.addTgBtn{
+  position:fixed;
+  z-index:3;
+  bottom:10px;
+  right:10px;
+  border-radius:50%;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="41a53858d60a4187af0e2486357d16b4" Name="Diagram1">
+        <EntityTypeShape EntityType="TrackerModel.Clocking" Width="1.5" PointX="5.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrackerModel.Projects" Width="1.5" PointX="1.5" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrackerModel.Roles" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrackerModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrackerModel.TaskGroupPermissions" Width="2.625" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrackerModel.TaskPermissions" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrackerModel.Tasks" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrackerModel.TimeEntry" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrackerModel.UserRoles" Width="1.5" PointX="6" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrackerModel.Users" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="TrackerModel.FK_Tasks_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="TrackerModel.FK_UserRoles_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="TrackerModel.FK_TaskGroupPermissions_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TrackerModel.FK_TaskUserPermissions_Tasks" ManuallyRouted="false" />
+        <AssociationConnector Association="TrackerModel.FK_TaskUserPermissions_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TrackerModel.FK_TimeEntry_Tasks" ManuallyRouted="false" />
+        <AssociationConnector Association="TrackerModel.FK_TimeEntry_TimeEntry" ManuallyRouted="false" />
+        <AssociationConnector Association="TrackerModel.FK_UserRoles_Users" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TrackerModel.TaskGroups" Width="1.5" PointX="0.875" PointY="4.5" />
+        <AssociationConnector Association="TrackerModel.FK_TaskGroupPermissions_TaskGroup1" />
+        <AssociationConnector Association="TrackerModel.FK_Tasks_TaskGroup1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

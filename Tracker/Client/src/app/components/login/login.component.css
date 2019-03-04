@@ -1,0 +1,20 @@
+.login-form-wrap
+{
+  position:relative;
+}
+
+.login-form {
+  position:absolute;
+  left:0;
+  right:0;
+  margin:auto;
+  width:300px;
+}
+
+.background {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-10;
+}
+

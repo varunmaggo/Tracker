@@ -1,0 +1,32 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" (click)="expandNav = !expandNav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <i class="far fa-clock" style="color:dodgerblue;font-size:20px"></i> The Tracker
+        <!--<img alt="Brand" src="...">-->
+      </a>
+    </div>
+    <div class="navbar-collapse " id="bs-example-navbar-collapse-1" [ngClass]="expandNav? 'collapsed': 'collapse'">
+      <ul class="nav navbar-nav">
+        <li><a routerLink="/clocking"><i class="fas fa-clock" style="color:orange"></i> Clocking</a></li>
+        <li><a routerLink="/tasks"><i class="fas fa-tasks" style="color:orange"></i> Tasks</a></li>
+        <li><a routerLink="/taskGroups"><i class="fab fa-stack-overflow" style="color:orange"></i> Task Groups</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a (click)="logout()">Logout</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+<toaster-container>
+</toaster-container>
+<div class="container-fluid mainPanel">
+  <router-outlet></router-outlet>
+</div>
